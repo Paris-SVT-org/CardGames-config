@@ -8,7 +8,7 @@
     
     <applicationManager autoExpand="true"/>
 
-    <webApplication contextRoot="/CardGames" id="CardGames" location="${server.config.dir}/apps/CardGames.war">
+    <webApplication contextRoot="/" id="CardGames" location="${server.config.dir}/apps/CardGames.war">
     </webApplication>
     
 </server>

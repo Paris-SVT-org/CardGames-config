@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server description="defaultServer">
+    <featureManager>
+        <feature>servlet-3.1</feature>
+    </featureManager>
+
+    <httpEndpoint host="*" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint"/>
+    
+    <applicationManager autoExpand="true"/>
+
+    <webApplication contextRoot="/CardGames" id="CardGames" location="${server.config.dir}/apps/CardGames.war">
+    </webApplication>
+   
+</server>

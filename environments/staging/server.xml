@@ -11,5 +11,4 @@
     <webApplication contextRoot="/" id="CardGames" location="${server.config.dir}/apps/CardGames.war">
     </webApplication>
 
-    
 </server>
